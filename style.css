@@ -1,0 +1,32 @@
+.hero-image {
+  position: relative;
+  background-image: url('pictures/3_IMG_9579.JPEG');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; /* zajistí výšku celé obrazovky */
+}
+
+.hero-image .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* tmavý průhledný overlay pro lepší čitelnost textu */
+  z-index: 1;
+}
+
+.hero-image .content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  padding: 2rem;
+}
+
+.carousel-item img {
+  height: 500px; /* nebo jiná výška podle potřeby */
+  object-fit: cover;
+}
+
+
+  
