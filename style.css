@@ -4,7 +4,7 @@ html {
 
 .hero-image {
   position: relative;
-  background-image: url('pictures/3_IMG_9579.jpg');
+  background-image: url('pictures/1_IMG_9648.jpg');
   background-size: cover;
   background-position: center;
   min-height: 100vh; /* zajistí výšku celé obrazovky */
@@ -59,6 +59,8 @@ html {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* silnější stín při hoveru */
   background-color: #0056b3; /* tmavší odstín při hoveru */
 }
+
+
 
 
 
