@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .hero-image {
   position: relative;
   background-image: url('pictures/3_IMG_9579.jpg');
@@ -56,8 +60,6 @@
   background-color: #0056b3; /* tmavší odstín při hoveru */
 }
 
-html {
-  scroll-behavior: smooth;
-}
+
 
   
