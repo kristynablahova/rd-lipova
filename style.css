@@ -23,6 +23,12 @@
   padding: 2rem;
 }
 
+.hero-image h1,
+.hero-image p {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+
 .carousel-item img {
   height: 500px; /* nebo jiná výška podle potřeby */
   object-fit: cover;
@@ -48,6 +54,10 @@
 #scrollToTopBtn:hover {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* silnější stín při hoveru */
   background-color: #0056b3; /* tmavší odstín při hoveru */
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
   
