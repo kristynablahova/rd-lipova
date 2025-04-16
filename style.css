@@ -2,6 +2,9 @@ html {
   scroll-behavior: smooth;
 }
 
+#o-nemovitosti p, #lokalita p {
+  text-align: justify;
+}
 .hero-image {
   position: relative;
   background-image: url('pictures/1_IMG_9648.jpg');
